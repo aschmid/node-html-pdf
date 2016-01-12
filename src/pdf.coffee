@@ -5,7 +5,7 @@ path = require('path')
 assert = require('assert')
 
 try
-  phantomjs = require('phantomjs')
+  phantomjs = require('phantomjs2')
 catch err
   console.log('html-pdf: Failed to load PhantomJS module.', err)
 
